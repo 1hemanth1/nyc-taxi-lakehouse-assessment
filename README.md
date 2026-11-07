@@ -6,6 +6,9 @@ End-to-end cloud data pipeline built on Azure Data Factory, ADLS Gen2, and Azure
 ## Repository Structure
 ```text
 nyc-taxi-lakehouse-assessment/
+├── infrastructure/                         # ADF ARM / JSON export templates
+│   ├── arm_template.json
+│   └── parameters.json
 ├── notebooks/
 │   ├── 01_medallion_pipeline.ipynb
 ├── screenshots/
